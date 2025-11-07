@@ -2,6 +2,7 @@ import { Logo } from "./Logo";
 import { Search, BarChart, CheckSquare, Flag, Home, SquareStack, Users, LifeBuoy, Cog } from "lucide-react";
 import { NavItem } from "./NavItem";
 import { UsedSpaceWidget } from "./UsedSpaceWidget";
+import { Profile } from "./Profile"
 
 
 export function Sidebar() {
@@ -31,6 +32,10 @@ export function Sidebar() {
                 </nav>
 
                 <UsedSpaceWidget />
+
+                <div className="h-px bg-zinc-200"></div>
+
+                <Profile />
             </div>
         </aside>
     )
